@@ -2,6 +2,41 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* header section */
+.header{
+    width: 100%;
+    height: 94px;
+    background: #562EFF;
+}
+.idea img{
+    width: 40.42px;
+    height: 51px;
+}
+.idea{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+.nav-description li{
+    list-style: none;
+}
+.description{
+    display: flex;
+    gap: 35px;
+}
+.header-container{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+
+
+
+
+
+
 body{
     background-color:  #E5E5E5;
 }
@@ -161,7 +196,12 @@ br{
     .course-container{
         margin-left: 50px;
     }
-    
+    .header{
+        height: 100%;
+    }
+    .header-container{
+        flex-direction: column;
+    }
 }
 
 
